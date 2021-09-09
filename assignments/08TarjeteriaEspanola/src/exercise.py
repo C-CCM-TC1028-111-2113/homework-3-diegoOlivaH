@@ -1,4 +1,4 @@
-ef número_de_pliegos(pliegos,plumones):
+def número_de_pliegos(pliegos,plumones):  ##def
     pliegos*=12
     plumones*=35
     if (plumones<=pliegos):
@@ -7,6 +7,7 @@ ef número_de_pliegos(pliegos,plumones):
         return pliegos
 def main():
     #escribe tu código abajo de esta línea
+##Indentacion
 pli= int(input("Input the number of sheets of albanene paper: "))
 plu= int(input("Input the number of markers: "))
 
